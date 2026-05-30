@@ -1,45 +1,98 @@
-Phishing Awareness Simulation Platform
+# Phishing Awareness Simulation Platform
 
-Educational phishing simulation project built for cybersecurity awareness and training in a controlled localhost lab environment.
+Educational phishing simulation project developed to demonstrate how phishing attacks operate in a controlled laboratory environment. The objective of this project is to help students and beginners understand phishing techniques and improve cybersecurity awareness.
 
-Disclaimer
+---
+
+## Disclaimer
 
 This project is strictly for educational and cybersecurity awareness purposes.
 
-The simulation is designed to run only in a local lab/testing environment. It must not be used against real users, public systems, or unauthorized targets.
+All demonstrations were performed in a controlled lab environment using localhost and sample data. This project must not be used against real users, public systems, or unauthorized targets.
 
 The author does not support malicious phishing activities.
 
-Features
-Educational phishing simulation
-Credential capture workflow demonstration
-Awareness-based learning platform
-Localhost-only deployment
-Beginner-friendly cybersecurity project
-Demonstration of phishing attack techniques for defensive understanding
+---
+
+## Project Overview
+
+Phishing is one of the most common social engineering attacks used to trick users into revealing sensitive information. This project demonstrates a phishing workflow in a safe environment to help learners understand attacker techniques and recognize phishing attempts.
+
+---
+
+## Features
+
+* Educational phishing simulation
+* Controlled lab environment testing
+* Login page simulation
+* Credential capture demonstration using sample data
+* Cybersecurity awareness training
+* Beginner-friendly cybersecurity project
+
+---
 
 ## Technologies Used
 
 * HTML5
 * CSS3
 * JavaScript
-* Kali Linux Security Tools
-* Apache Server / Localhost Environment
+* Kali Linux
+* Apache2 Web Server
+* Social Engineering Toolkit (SEToolkit)
 
 ---
 
-## Environment
+## Project Workflow
 
-* Kali Linux
-* Controlled Lab Setup
-* Localhost Testing Environment
+1. Create a phishing simulation page.
+2. Host the page in a controlled testing environment.
+3. Enter sample credentials for demonstration.
+4. Observe how information can be intercepted during a phishing attack.
+5. Learn defensive practices and phishing awareness concepts.
 
-Project Workflow
+---
 
-User Simulation
-↓
-Fake Login Interface
-↓
-Credential Capture Demonstration
-↓
-Awareness & Security Education
+## Screenshots
+
+### Simulation Page
+
+![Simulation Page](screenshots/clone-page.png)
+
+Phishing simulation interface designed for educational purposes. This page demonstrates how attackers may imitate legitimate login portals to deceive users.
+
+### Localhost Login Page
+
+![Localhost Login Page](screenshots/login-page.png)
+
+Locally hosted login simulation running in a controlled testing environment. The page is used to demonstrate phishing techniques safely without targeting real users.
+
+### Capture Demonstration
+
+![Capture Demonstration](screenshots/capture-demo.png)
+
+Terminal output showing a credential capture demonstration using sample data in a controlled laboratory environment. The screenshot is included for educational analysis of phishing workflows and awareness training.
+
+---
+
+## Security Awareness Lessons
+
+This project highlights the importance of:
+
+* Verifying URLs before entering credentials
+* Avoiding suspicious links and emails
+* Using Multi-Factor Authentication (MFA)
+* Checking website authenticity
+* Following cybersecurity best practices
+* Understanding common social engineering tactics
+
+---
+
+## Educational Purpose
+
+The goal of this project is to help students understand phishing attacks from a defensive and awareness perspective. By learning how phishing works, users can better identify and avoid real-world phishing attempts.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
